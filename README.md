@@ -1,107 +1,82 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,30:6A5ACD,70:FF6B6B,100:F9D423&height=260&section=header&text=🦟%20MalariaGuard%20AI&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI-Powered%20Malaria%20Prediction%20and%20Risk%20Assessment&descAlignY=60&descSize=18"/>
+# 🦟 MalariaGuard AI
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=900&lines=Predict+Malaria+Using+Machine+Learning;Random+Forest+Prediction+Engine;Interactive+Streamlit+Dashboard;Healthcare+AI+Project;Built+with+Python+❤️" />
+### AI-Powered Malaria Prediction & Risk Assessment System
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&pause=1200&color=2E8BFF&center=true&vCenter=true&width=750&lines=Predict+Malaria+Risk+using+Machine+Learning;District-wise+Disease+Forecasting;Interactive+Streamlit+Dashboard;Built+with+Python+%7C+Scikit-Learn+%7C+Plotly" />
 
 <br>
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white"/>
-<img src="https://img.shields.io/badge/Healthcare-AI-success?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Open%20Source-GitHub-black?style=for-the-badge&logo=github"/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-success?style=flat-square)
 
 </div>
 
 ---
 
-# 🌟 Overview
+## 📖 Overview
 
-**MalariaGuard AI** is an intelligent **Machine Learning-based disease prediction system** that forecasts malaria cases using weather conditions and historical malaria data.
+**MalariaGuard AI** is a machine learning application that predicts malaria outbreaks using weather parameters and historical malaria data.
 
-The application provides an interactive dashboard for district-wise prediction, helping healthcare professionals and researchers make informed decisions.
+The system helps visualize district-wise predictions through an intuitive Streamlit dashboard, enabling faster and more informed healthcare decisions.
 
 ---
 
-# ✨ Key Features
+## ✨ Features
 
-| 🚀 Feature | Description |
-|------------|-------------|
-| 🤖 AI Prediction | Predict malaria cases using Random Forest |
+| Feature | Description |
+|---------|-------------|
+| 🤖 AI Prediction | Random Forest based prediction model |
 | 🌦 Weather Analysis | Temperature, Humidity & Rainfall |
-| 📍 District Selection | Predict for multiple districts |
-| 📊 Dashboard | Interactive Streamlit interface |
-| 🚨 Risk Level | Low • Medium • High |
-| 📈 Data Visualization | Plotly Charts |
-| ⚡ Fast Prediction | Instant ML inference |
+| 📍 District-wise Prediction | Predict malaria risk by district |
+| 📊 Interactive Dashboard | Clean Streamlit interface |
+| 🚨 Risk Classification | Low, Medium & High Risk |
+| 📈 Data Visualization | Plotly Interactive Charts |
 
 ---
 
-# 🛠 Tech Stack
-
-| Category | Technologies |
-|----------|--------------|
-| Programming | Python |
-| Web Framework | Streamlit |
-| Machine Learning | Scikit-learn |
-| Data Processing | Pandas, NumPy |
-| Visualization | Plotly |
-| Model Storage | Joblib |
-
----
-
-# 🧠 AI Prediction Pipeline
+## ⚡ Workflow
 
 ```text
-            Historical Dataset
-                    │
-                    ▼
-           Data Cleaning & Processing
-                    │
-                    ▼
-           Feature Engineering
-                    │
-                    ▼
-       Random Forest ML Model
-                    │
-                    ▼
-          Malaria Prediction
-                    │
-                    ▼
-        Risk Classification
-                    │
-                    ▼
-      Interactive Dashboard
+Select District
+      │
+      ▼
+Weather Data Processing
+      │
+      ▼
+Random Forest Prediction
+      │
+      ▼
+Risk Classification
+      │
+      ▼
+Interactive Dashboard
 ```
 
 ---
 
-# 🖥 Application Workflow
+## 🛠 Tech Stack
 
-```text
-🏠 Home
-      │
-      ▼
-📍 Select District
-      │
-      ▼
-🤖 AI Prediction
-      │
-      ▼
-📊 Dashboard
-      │
-      ▼
-🚨 Risk Assessment
-```
+| Technology | Usage |
+|------------|------|
+| Python | Programming |
+| Streamlit | Frontend |
+| Scikit-Learn | Machine Learning |
+| Pandas | Data Processing |
+| NumPy | Numerical Computing |
+| Plotly | Data Visualization |
+| Joblib | Model Loading |
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
-MalariaGuard-AI/
+MalariaGuard-AI
 │
 ├── app.py
 ├── backend.py
@@ -109,7 +84,6 @@ MalariaGuard-AI/
 ├── prediction.py
 ├── requirements.txt
 ├── README.md
-├── LICENSE
 │
 ├── pages/
 │   ├── Location.py
@@ -117,78 +91,39 @@ MalariaGuard-AI/
 │   └── Dashboard.py
 │
 └── screenshots/
-    ├── home.png
-    ├── location.png
-    ├── processing.png
-    ├── dashboard.png
-    └── demo.gif
 ```
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
-## 🏠 Home Page
-
-> Replace after taking screenshots
-
-![Home](screenshots/home.png)
+| Home | Dashboard |
+|------|-----------|
+| ![](screenshots/home.png) | ![](screenshots/dashboard.png) |
 
 ---
 
-## 📍 District Selection
+## 🚀 Installation
 
-![Location](screenshots/location.png)
-
----
-
-## 🤖 AI Prediction
-
-![Prediction](screenshots/processing.png)
-
----
-
-## 📊 Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
----
-
-# 🎥 Demo
-
-Add your application demo here.
-
-```text
-screenshots/demo.gif
-```
-
-```markdown
-![Demo](screenshots/demo.gif)
-```
-
----
-
-# 🚀 Installation
-
-Clone Repository
+Clone the repository
 
 ```bash
 git clone https://github.com/Prasanth4734f/MalariaGuard-AI.git
 ```
 
-Go to Project
+Move into the project
 
 ```bash
 cd MalariaGuard-AI
 ```
 
-Install Packages
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run Application
+Run
 
 ```bash
 streamlit run app.py
@@ -196,69 +131,37 @@ streamlit run app.py
 
 ---
 
-# 📊 Prediction Parameters
+## 📊 Prediction Parameters
 
-| Feature | Description |
-|----------|-------------|
-| 🌡 Temperature | Current Temperature |
-| 💧 Humidity | Relative Humidity |
-| 🌧 Rainfall | Rainfall Level |
-| 📅 Historical Data | Previous Malaria Cases |
+- Temperature
+- Humidity
+- Rainfall
+- Historical Malaria Data
 
 ---
 
-# 🎯 Future Scope
+## 🎯 Future Improvements
 
-- 🌍 Real-Time Weather API
-- 🗺 GIS Heatmaps
-- 📱 Android Application
-- ☁ Cloud Deployment
-- 🔔 SMS & Email Alerts
-- 🤖 Deep Learning Models
-- 📡 Live Health Monitoring
+- Real-time Weather API
+- GIS Heatmaps
+- Mobile Application
+- Cloud Deployment
+- Early Warning Notifications
 
 ---
 
-# 📈 Why MalariaGuard AI?
+## 👨‍💻 Author
 
-✅ Fast Predictions
+**M. Prasanth Reddy**
 
-✅ Modern Dashboard
-
-✅ Machine Learning Powered
-
-✅ Healthcare Focused
-
-✅ User Friendly
-
-✅ Interactive Visualizations
-
----
-
-# 👨‍💻 Author
-
-## M. Prasanth Reddy
-
-GitHub
-
-https://github.com/Prasanth4734f
-
----
-
-# ⭐ Support
-
-If you found this project useful,
-
-### Give this repository a ⭐
-
-It motivates further improvements.
+GitHub → https://github.com/Prasanth4734f
 
 ---
 
 <div align="center">
 
-## 💙 Thank You for Visiting
+### ⭐ If you found this project useful, consider giving it a Star.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F9D423,30:FF6B6B,70:6A5ACD,100:00C9FF&height=140&section=footer"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=18&pause=1200&color=36BCF7&center=true&width=600&lines=Thanks+for+visiting!;Happy+Coding!+🚀" />
 
 </div>
